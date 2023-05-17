@@ -1,5 +1,5 @@
 export const info = {
-  baseUrl: "https://astro-portfolio-uzair.vercel.app",
+  baseUrl: "",
   name: "Howard Jiang",
   jobDescription: "Web Developer",
   about: `I am a software engineer currently based in Cary, NC. I recently graduated with an MS in Computer Science from the University of North Carolina at Chapel Hill. 
@@ -73,7 +73,7 @@ export const info = {
       title: "This Portfolio",
       isFeatured: true,
       thumbnail: "/assets/images/1.png",
-      liveUrl: "https://astro-portfolio-uzair.vercel.app/",
+      liveUrl: "https://github.com/hjiang23/portfolio",
     },
     {
       title: "Flappy Bird Using Nexys 4 Board and MIPS",
