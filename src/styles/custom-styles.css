@@ -2,6 +2,10 @@
   line-height: 1.2;
 }
 
+#heyim {
+  font-size:large;
+}
+
 /* gradient heading */
 .main-heading {
   display: inline-block;
