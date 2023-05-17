@@ -2,96 +2,108 @@ export const info = {
   baseUrl: "https://astro-portfolio-uzair.vercel.app",
   name: "Howard Jiang",
   jobDescription: "Web Developer",
-  about: `I'm a software engineer based in Karachi, Pakistan.
-   I enjoy creating things that live on the internet, whether that be websites, applications, or anything in between.
-   I have been working for 3 year, with a demonstrated history of working in the Computer Software industry. Skilled in Front-end Development.
-   I have 3 years of experience in HTML, CSS, SCSS, JavaScript, Bootstrap, tailwind CSS, StyledComponent, React JS and Next JS. Hence,
-   I have successfully completed several web projects from scratch. 
-   Yet, I learn continuously and never stop exploring new technologies.
-   So, I have also gained knowledge of Node JS, Express JS, Mongo DB, Python,
-   firebase and React Native with time.
+  about: `I am a software engineer currently based in Cary, NC. I recently graduated with an MS in Computer Science from the University of North Carolina at Chapel Hill. 
+  So far, I have had the privilege of working at Amazon as a Software Development Engineer Intern and at CapTech as a Software Engineering/Consulting Intern. I am currently seeking full-time opportunities in software engineering
+  or other related fields! Some tools/frameworks and languages I feel comfortable using include Git, Spring, React, Node.js, Unity, AWS, SQL, JSP, Java, Python, JavaScript,
+  C, C#, and Python. Below, you will find my work experience, education, and projects I have completed!
   `,
 
   experience: [
     {
-      name: "InterNative Labs, LLC",
-      location: "Karāchi, Sindh, Pakistan",
-      startDate: "Apr 2022",
-      endDate: "Present",
+      name: "Amazon | Software Development Engineer Intern",
+      location: "Seattle, WA",
+      startDate: "May 2022",
+      endDate: "Aug 2022",
       description: [
-        "- Developing screens and UI components for the web application using React and Tailwind.",
-        "- Fixing UI issues and integrating backend APIs with Redux Saga.",
+        "• Used Java and JSP in the Spring framework to create a page on the Amazon internationalization demo portal that allows for the comparison of formatting between two locales",
+        "• Devised a modular and scalable OOP design to support price, date, and time formatting comparisons for all 400+ available CLDR locales",
       ],
     },
 
     {
-      name: "Coupon Approve (Remote)",
-      location: "Amsterdam, North Holland, Netherlands",
-      startDate: "Nov 2020",
-      endDate: "Apr 2022",
+      name: "CapTech Consulting | Elevate Software Engineering/Consulting Intern",
+      location: "Remote",
+      startDate: "May 2021",
+      endDate: "Jul 2021",
       description: [
-        "✓ Developing code in accordance with appropriate design and architectural rules",
-        "✓ Documenting, testing, deployment, maintenance, support of platforms, applications, databases and solutions",
-        "✓ Help and training of other colleagues",
-        "✓ Others tasks connected to the nature of the job",
-        "✓ Code Improvements and Refactoring ",
-        "✓ Best Practices and Rules Maintainer",
+        "• Used React, Material UI, and AWS to construct front-end for smart fridge website, allowing users to receive recipe recommendations and manage their refrigerator inventory",
+        "• Participated in daily standup meetings and weekly client presentations as part of an Agile software development cycle"
       ],
     },
 
     {
-      name: "Interns Pakistan",
-      location: "Pakistan",
-      startDate: "Oct 2020",
-      endDate: "Nov 2020",
+      name: "University of North Carolina at Chapel Hill | Residential Computing Consultant",
+      location: "Chapel Hill, NC",
+      startDate: "Aug 2019",
+      endDate: "Mar 2020",
       description: [
-        "An Immersive Internship Program that prepares me for the world's most in-demand career. A six weeks program completely based on learning and challenges.",
-        "The internship track is built by an industry expert that let develop the skills in the areas most important ",
+        "• Provided essential technological support (WiFi, ethernet, device registration, general troubleshooting, etc.) to 50+ campus residents",
+        "• Assisted in planning and providing technological setup for various campus fairs, outdoor activities, and gaming events",
       ],
     },
   ],
 
   education: [
     {
-      name: "Pakistan Institute of Professional Science & Technology (PIPS-TECH)",
-      location: "Karāchi, Sindh, Pakistan",
-      startDate: "2019",
-      endDate: "2022",
+      name: "University of North Carolina at Chapel Hill",
+      location: "Chapel Hill, NC",
+      startDate: "Jan 2022",
+      endDate: "May 2023",
       description: [
-        "Diploma of Associate Engineering,  Computer Information Technology (CIT)",
+        "M.S. Computer Science",
       ],
     },
     {
-      name: "Govt. Degree Boys College Buffer Zone",
-      location: "Karāchi, Sindh, Pakistan",
-      startDate: "2018",
-      endDate: "2020",
-      description: ["Intermediate, Pre-Engineering"],
-    },
-    {
-      name: "Ghazi Foundation Schools & Colleges",
-      location: "Karāchi, Sindh, Pakistan",
-      startDate: "2016",
-      endDate: "2018",
-      description: ["Matriculation,  Computer Science"],
-    },
+      name: "University of North Carolina at Chapel Hill",
+      location: "Chapel Hill, NC",
+      startDate: "Aug 2019",
+      endDate: "Dec 2021",
+      description: ["B.S. Computer Science, Minor in Data Science"],
+    }
   ],
 
   socialMedia: {
-    facebook: "https://www.facebook.com/profile.php?id=100022899849583",
-    twitter: "https://twitter.com/Uzzii_21",
-    github: "https://github.com/uzzii-21",
-    email: "uzairahmed@74372gmail.com",
-    linkedin: "https://www.linkedin.com/in/uzzii21/",
+    github: "https://github.com/hjiang23",
+    email: "https://docs.google.com/document/d/14qPaiYym26trAR8OMgD9KHFDmIDrOQFc3focsrTSNqI/edit?usp=sharing",
+    linkedin: "https://www.linkedin.com/in/howardjiang4133/",
   },
 
   projects: [
     {
-      title: "Astro Portfolio",
+      title: "This Portfolio",
       isFeatured: true,
-      thumbnail: "/assets/images/astro-portfolio.png",
-      githubUrl: "https://github.com/uzzii-21/astro-portfolio",
+      thumbnail: "/assets/images/1.png",
       liveUrl: "https://astro-portfolio-uzair.vercel.app/",
+    },
+    {
+      title: "Flappy Bird Using Nexys 4 Board and MIPS",
+      isFeatured: true,
+      thumbnail: "/assets/images/2.png",
+      liveUrl: "https://youtu.be/Fmz9F03vR-I ",
+    },
+    {
+      title: "Panoramic Stitching Implemented in MATLAB",
+      isFeatured: true,
+      thumbnail: "/assets/images/3.png",
+      liveUrl: "https://youtu.be/NLzeeyE0X-s",
+    },
+    {
+      title: "VR Cooking Game: Order Up",
+      isFeatured: true,
+      thumbnail: "/assets/images/4.png",
+      liveUrl: "https://github.com/hjiang23/VRFinalProject",
+    },
+    {
+      title: "LiquidHacks Winner: Did Liquid Win?",
+      isFeatured: true,
+      thumbnail: "/assets/images/5.png",
+      liveUrl: "https://github.com/postse/DidLiquidWin",
+    },
+    {
+      title: "Operation Breakout Case Study Data Visualization",
+      isFeatured: true,
+      thumbnail: "/assets/images/6.png",
+      liveUrl: "https://github.com/COMP790-InfoVis/final-project-lduan11",
     },
   ],
 };
