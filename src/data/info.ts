@@ -2,13 +2,33 @@ export const info = {
   baseUrl: "",
   name: "Howard Jiang",
   jobDescription: "Web Developer",
-  about: `I am a software engineer currently based in Cary, NC. I recently graduated with an MS in Computer Science from the University of North Carolina at Chapel Hill. 
-  So far, I have had the privilege of working at Amazon as a Software Development Engineer Intern and at CapTech as a Software Engineering/Consulting Intern. I am currently seeking full-time opportunities in software engineering
-  or other related fields! Some tools/frameworks and languages I feel comfortable using include Git, Spring, React, Node.js, Unity, AWS, SQL, JSP, Java, Python, JavaScript,
-  C, C#, and Python. Below, you will find my work experience, education, and projects I have completed!
+  about: `Hello! My name is Howard, and I am a software engineer from Cary, NC. I recently graduated with an MS in Computer Science from the University of North Carolina at Chapel Hill. 
+  So far, I have had the privilege of working as a Software Engineer at Anewgo, and now at Amazon in Austin, TX. Some tools/frameworks and languages I feel comfortable using include Git, 
+  GraphQL, React, Node.js, Unity, AWS, SQL, Java, Python, JavaScript, C, C#, Kotlin, and more! Below, you will find my work experience, education, and projects I have completed!
   `,
 
   experience: [
+    {
+      name: "Amazon | Software Development Engineer",
+      location: "Austin, TX",
+      startDate: "Jan 2024",
+      endDate: "Present",
+      description: [
+        "• Implementing and maintaining AWS-based services that enable the expansion of Amazon's products in global markets",
+      ],
+    },
+
+    {
+      name: "Anewgo | Software Engineer",
+      location: "Holly Springs, NC",
+      startDate: "Sep 2023",
+      endDate: "Dec 2023",
+      description: [
+        "• Implemented a photo and video tagging system by creating a React/TypeScript front-end and GraphQL resolvers on the back-end",
+        "• Wrote a Node.js script that cleaned up Google Cloud Storage buckets by removing over 1,000,000 files that were no longer being referenced",
+      ],
+    },
+
     {
       name: "Amazon | Software Development Engineer Intern",
       location: "Seattle, WA",
@@ -70,6 +90,12 @@ export const info = {
 
   projects: [
     {
+      title: "Taylor Swirdle",
+      isFeatured: true,
+      thumbnail: "/assets/images/7.png",
+      liveUrl: "https://taylorswirdle.com/",
+    },
+    {
       title: "This Portfolio",
       isFeatured: true,
       thumbnail: "/assets/images/1.png",
@@ -103,7 +129,7 @@ export const info = {
       title: "Operation Breakout Case Study Data Visualization",
       isFeatured: true,
       thumbnail: "/assets/images/6.png",
-      liveUrl: "https://github.com/COMP790-InfoVis/final-project-lduan11",
+      liveUrl: "https://docs.google.com/presentation/d/1TNuax83ueRlkbjRMImm7Ttbf7_UUGgwbX5ewb_32LhI/edit#slide=id.p",
     },
   ],
 };
